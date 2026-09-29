@@ -59,6 +59,7 @@ const cars = [
 console.log(cars);
 console.log(cars[0].brand);
 
+
 // Nyt i dag: forEach gennemløber et array og kører koden én gang for hver bil.
 // Sådan er en forEach bygget op:
 //     cars.forEach(function(car) {
@@ -70,7 +71,9 @@ console.log(cars[0].brand);
 // Du skulle gerne se tre linjer i konsollen: Ford, Volvo og Volkswagen.
 //
 // Ekstra: skriv også model og årgang ud på samme linje.
-
+cars.forEach (function(car0bj){
+   console.log(`${car0bj.brand}`);
+});
 
 
 /* ---------------------------------------------------------
