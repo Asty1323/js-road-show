@@ -21,6 +21,28 @@ const cars = [
         fuel: "Benzin",
         sound: "sound/red-car-horn.wav"
     },
+    {
+      id: "policeCar",
+      brand: "Volvo",
+      model: "242",
+      year: 1982,
+      color: "blå og hvid",
+      fuel: "diesel",
+      sound: "sound/police-car-sound.wav"
+
+    },
+
+     {
+      id: "blueCar",
+      brand: "Volkswagen",
+      model: "Passat",
+      year: 1979,
+      color: "lyseblå",
+      fuel: "diesel",
+      sound: "sound/blue-car-sound.wav"
+
+    },
+
 
     // Skriv selv: et objekt for politibilen med samme nøgler som ovenfor.
     //   id: "policeCar", brand: "Volvo", model: "242", year: 1982,
